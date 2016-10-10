@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="common.css">
+<style>
+.address_book {
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.address_book li {
+    position: relative;
+    display: -webkit-box;
+    background: #fff;
+}
+.address_booK_letter{
+      padding: 5px 15px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-family: 'Helvetica';
+     color: #666;
+}
+.list_thumb {
+    position: relative;
+    margin: 10px 10px 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.list_thumb img{
+    width: 50px;
+    height: 50px;
+}
+.list_info{
+    -webkit-box-flex: 1;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .list_info h4 {
+    margin: 15px 0;
+    color: #666;
+  }
+.search-letters {
+    position: fixed;
+    top: 20%;
+    right: 5px;
+    font-family: 'Helvetica';
+}
+.search-letters a {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    color: #333;
+}
+    </style>
+
+</head>
+<body class="address_book_body">
+<div class="address_book">
+ <ul>
+ <h4 class="address_booK_letter"><a href="javascript:;" name='A'>A</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>阿门</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='B'>B</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>贝贝</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='C'>C</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>CC</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='D'>D</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>DD</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='E'>E</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>EE</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='F'>f</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>FF</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='G'>G</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>哥哥</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='H'>H</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>HH</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='I'>I</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>II</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='W'>W</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>WW</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='Z'>Z</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>ZZ</h4>
+    </div>
+   </li>
+    <h4 class="address_booK_letter"><a href="javascript:;" name='#'>#</a></h4>
+   <li>
+     <div class="list_thumb">
+      <img src="image/user.png" alt="">
+     </div>
+    <div class="list_info">
+     <h4>##</h4>
+    </div>
+   </li>
+
+ </ul>
+   <!-- 右侧字母表 -->
+  <div class="search-letters">
+        <a name='A'>A</a>
+        <a name='B'>B</a>
+        <a name='C'>C</a>
+        <a name='D'>D</a>
+        <a name='E'>E</a>
+        <a name='F'>F</a>
+        <a name='G'>G</a>
+        <a name='H'>H</a>
+        <a name='I'>I</a>
+        <a name='W'>W</a>
+        <a name='Z'>Z</a>
+        <a name='#'>#</a>
+  </div>
+</div>
+<button >点击1</button>
+<button onclick="show()">点击</button>
+</body>
+</html>
+<script src="zepto.min.js"></script>
+
+<script>
+
+
+
+
+
+(function(){
+  //zepto没有scrollTo动画，所以在这里扩展了一个scrollTo函数；
+  $.fn.scrollTo = function(options) {
+    var defaults = {
+      toT: 90, //滚动目标位置
+      durTime: 500, //过渡动画时间
+      delay: 30, //定时器时间
+      callback: null //回调函数
+    };
+    var opts = $.extend({},defaults, options),
+      timer = null,
+      _this = this,
+      curTop = _this.scrollTop(), //滚动条当前的位置
+      subTop = opts.toT - curTop, //滚动条目标位置和当前位置的差值
+      index = 0,
+      dur = Math.round(opts.durTime / opts.delay),
+      smoothScroll = function(t) {
+        index++;
+        var per = Math.round(subTop / dur);
+        if (index >= dur) {
+          _this.scrollTop(t);
+          window.clearInterval(timer);
+          if (opts.callback && typeof opts.callback == 'function') {
+            opts.callback();
+          }
+          return;
+        } else {
+          _this.scrollTop(curTop + index * per);
+        }
+      };
+    timer = window.setInterval(function() {
+      smoothScroll(opts.toT);
+    }, opts.delay);
+
+    return _this;
+  };
+
+$('.search-letters a').each(function(index, item) {
+
+    $(this).click(function() {
+      var att = $(this).attr('name');
+      var curOffsetTop = $(".address_booK_letter a[name=" + att + "]")[0].offsetTop;
+      $(".address_book_body").scrollTo({
+        toT: curOffsetTop,
+        durTime: 0
+      });
+    });
+  });
+})();
+
+
+</script>
