@@ -1,0 +1,181 @@
+/*
+* @Author: Administrator
+* @Date:   2016-06-15 13:42:45
+* @Last Modified by:   liucaicai
+* @Last Modified time: 2016-07-13 14:11:37
+*/
+/*common */
+body{font-family: "Helvetica Neue", "黑体", Helvetica, STHeiTi, sans-serif, PingFang-SC-Regular, simHei;
+	color: #333;
+	background-color: #f2f2f2; }
+*{margin: 0; padding: 0;}
+p,ul,li,ol,div,h1,h2,h3,h4,h5,img,input,textarea,a{border: 0; list-style: none; outline: 0; font-weight: normal; }
+a:link,a:visited{text-decoration: none; color: #333; }
+a:hover{text-decoration: none; color: #333; }
+img{display: block}
+/*common*/
+/*清除浮动*/
+.cf:before{ content: ''; display: table }
+.cf:after{ content: ''; display: table; clear: both }
+.cf { *zoom: 1 }
+/*清除浮动*/
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+.dpb{display: block;}
+.dpn{display: none;}
+.ofh{overflow: hidden;}
+.wd100{width: 100%;}
+.wd50{width: 50%;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.borb01{border-bottom: 1px solid #dfdfdd;}
+.h48{height: 48px;}
+.lh48{line-height: 48px;}
+.tlc{text-align: center;}
+.tlr{text-align: right;}
+.tll{text-align: left;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.color-999{color: #999999 !important;}
+.color-666{color: #666666 !important;}
+.color-333{color: #333333 !important;}
+.fs12{font-size: 12px;}
+.fs16{font-size: 16px;}
+.bort0{border-top: 0 !important;}
+.mt10{margin-top:10px;}
+.bg-white {
+  background-color: #fff;
+}
+.digilinx-content-well-hline {
+	width: 100%;
+	border-top: 1px solid rgba(0,0,0,.1);
+	* border-bottom:1px solid #fff;
+	margin: 0.5em 0 0.5em 0;
+	position: relative;
+}
+.container_12 .alpha { clear-left: 0; }
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12
+{ margin: 0; padding: 0; border: 0; float: left; }
+
+.container_12 { overflow: hidden; }
+
+.container_12 .grid_1 {
+	width: 8.333333333333334%;
+}
+.container_12 .grid_2 {
+	width: 16.666666666666668%;
+}
+.container_12 .grid_3 {
+	width: 25%;
+}
+.container_12 .grid_4 {
+	width: 33.333333333333336%;
+}
+.container_12 .grid_5 {
+	width: 41.66666666666667%;
+}
+.container_12 .grid_6 {
+	width: 50%;
+}
+.container_12 .grid_7 {
+	width: 58.333333333333336%;
+}
+.container_12 .grid_8 {
+	width: 66.66666666666667%;
+}
+.container_12 .grid_9 {
+	width: 75%;
+}
+.container_12 .grid_10 {
+	width: 83.33333333333334%;
+}
+.container_12 .grid_11 {
+	width: 91.66666666666667%;
+}
+.container_12 .grid_12 {
+	width: 100%;
+}
+.container_16 .alpha { clear-left: 0; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16
+{ margin: 0; padding: 0; border: 0; float: left; }
+
+.container_16 { overflow: hidden; }
+
+.container_16 .grid_1 {
+	width: 6.25%;
+}
+.container_16 .grid_2 {
+	width: 12.5%;
+}
+.container_16 .grid_3 {
+	width: 18.75%;
+}
+.container_16 .grid_4 {
+	width: 25%;
+}
+.container_16 .grid_5 {
+	width: 31.25%;
+}
+.container_16 .grid_6 {
+	width: 37.5%;
+}
+.container_16 .grid_7 {
+	width: 43.75%;
+}
+.container_16 .grid_8 {
+	width: 50%;
+}
+.container_16 .grid_9 {
+	width: 56.25%;
+}
+.container_16 .grid_10 {
+	width: 62.5%;
+}
+.container_16 .grid_11 {
+	width: 68.75%;
+}
+.container_16 .grid_12 {
+	width: 75%;
+}
+.container_16 .grid_13 {
+	width: 81.25%;
+}
+.container_16 .grid_14 {
+	width: 87.5%;
+}
+.container_16 .grid_15 {
+	width: 93.75%;
+}
+.container_16 .grid_16 {
+	width: 100%;
+}
+
+
